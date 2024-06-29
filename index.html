@@ -1,0 +1,443 @@
+<section class="pricing_container">
+    <div class="container">
+        <div class="card good_start_card">
+            <div class="box">
+                <article class="content">
+                    <h2 class="pricing_card_title">Good Start</h2>
+                    <h3>Landing Page</h3>
+                    <p>Show your bussiness services and contact information</p>
+                    <section class="pricing_list_container">
+                        <ul class="ul_pricing_list">
+                            <div id="marker"></div>
+                            <li>
+                                <a href="#">Shared hosting</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">Free Advanced manteinance(1 Month)</a>
+                            </li>
+                            <li>
+                                <a href="#">Standard Support</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">1 Mailing account Free (3 Months)</a>
+                            </li>
+                            <li>
+                                <a class="red" href="#">No SSL Included</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">Free Capacitation for 1 User(Valid for 3 months)</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <a class="pricing_buttons landing_page_price_button" href="#">$980 USD</a>
+                </article>
+            </div>
+        </div>
+        <div class="card great_leads_card">
+            <div class="box">
+                <article class="content">
+                    <h2 class="pricing_card_title">Great leads</h2>
+                    <h3>Four section website</h3>
+                    <p>Great for showing your products catalogs and or your services and contact forms</p>
+                    <section class="pricing_list_container">
+                        <ul class="ul_pricing_list">
+                            <div id="marker2"></div>
+                            <li>
+                                <a href="#">Shared hosting</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">Free Advanced manteinance(1 Month)</a>
+                            </li>
+                            <li>
+                                <a href="#">Standard Support</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">2 Mailing accounts Free (3 Months)</a>
+                            </li>
+                            <li>
+                                <a class="red" href="#">No SSL Included</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">60% Discount on Google Analytics integration</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">Free Capacitation Course Up to 3 Users(Valid for 3 months)</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <a class="pricing_buttons four_section_price_button" href="#">$1660 USD</a>
+                </article>
+            </div>
+        </div>
+
+        <div class="card grow_big_card">
+            <div class="box">
+                <article class="content">
+                    <h2 class="pricing_card_title">Grow Big</h2>
+                    <h3>E - commerce</h3>
+                    <p>Ideal to increase your products sales and manage your inventory</p>
+                    <section class="pricing_list_container">
+                        <ul class="ul_pricing_list">
+                            <div id="marker3"></div>
+                            <li>
+                                <a href="#">Shared hosting</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">Free Advanced manteinance(2 Month)</a>
+                            </li>
+                            <li>
+                                <a class="green"
+                                href="#">Advanced Support</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">5 Mailing accounts Free (3 Months)</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">SSL Certificate (1 year Free)</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">Free Google Analytics Integration</a>
+                            </li>
+                            <li>
+                                <a class="green" href="#">Free Capacitation Course Up to 5 Users(Valid for 3 months)</a>
+                            </li>
+                        </ul>
+                    </section>
+                    <a class="pricing_buttons ecommerce_pricing_button"  href="#">$2560 USD</a>
+                </article>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:200;300;400;500;600;700;800;900&display=swap');
+
+
+.pricing_container {
+/* margin-top: -190px; */
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+min-height: 100vh;
+/* //background: #232427; */
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+max-width: 1200px;
+margin: 40px 0;
+
+}
+
+@media only screen and (max-width:1100px) {
+    .container {
+    flex-wrap: wrap;
+    }
+}
+
+.container .card {
+position: relative;
+background:#6878D6;
+min-width: 420px;
+
+box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+            inset -5px -5px 15px rgba(255,255,255,0.1),
+            5px 5px 15px rgba(0,0,0,0.3),
+            -5px -5px 15px rgba(255,255,255,0.1);
+            border-radius: 15px;
+            margin: 30px;
+}
+
+.good_start_card {
+height: 850px;
+}
+
+.great_leads_card {
+
+height: 850px;
+}
+
+.grow_big_card {
+height: 850px;
+}
+
+
+
+
+.container .card .box {
+position: absolute;
+top: 20px;
+left: 20px;
+right: 20px;
+/* bottom: 20px; */
+background: #283682;
+border: 2px solid #283682;
+border-radius: 15px;
+box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+transition: 0.5s;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+
+}
+
+.container .card .box::before {
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 100%;
+background: rgba(255,255,255,0.05);
+pointer-events: none;
+}
+
+.container .card .box:hover {
+transform: translateY(-50px);
+box-shadow: 0 40px 70px rgba(0,0,0,0.5);
+}
+
+.container .card .box .content {
+
+padding: 20px;
+text-align: center;
+}
+
+.container .card .box .content h2 {
+/* position: absolute; */
+top: -10px;
+right: 30px;
+font-size: 8em;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgba(255,255,255,0.05);
+
+}
+
+.container .card .box .content h3 {
+font-size: 1.8em;
+color: rgba(255,255,255,0.5);
+z-index: 1;
+transition: 0.5s;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+margin: 0;
+}
+
+.container .card .box .content p {
+font-size: 16px;
+font-weight: 300;
+color: rgba(255,255,255,0.5);
+z-index: 1;
+transition: 0.5s;
+margin-top: 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .card .box .content .pricing_buttons {
+position: relative;
+display: inline-block;
+padding: 18px 50px;
+/* background: #000; */
+margin-top: 15px;
+border-radius: 20px;
+text-decoration: none;
+font-size: 20px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+color: #fff;
+box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+}
+
+.landing_page_price_button {
+background: #2196f3 !important;
+}
+.four_section_price_button {
+background: #e91e63;
+}
+.ecommerce_pricing_button {
+background: #97dc47;
+}
+
+.pricing_card_title {
+color: #C5CDFC !important;
+text-align: center;
+margin-top: 20px;
+font-size: 57px !important;
+}
+
+/* ------------------------------------------------------------------ */
+/* internal ul_pricing_services_provided */
+    .pricing_list_container {
+        margin: 0;
+        padding: 0;
+        font-family: consolas;
+        font-size: 10px;
+    }
+
+    .pricing_list_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 10vh;
+        /* background: #080b1f; */
+
+    }
+
+    .ul_pricing_list {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .ul_pricing_list li { 
+        list-style: none;
+
+    }
+
+    .ul_pricing_list li a { 
+        position: relative;
+        font-size: 1.7em;
+        color: #fff;
+        text-decoration: none;
+        margin: 10px 0;
+        display: inline-block;
+        padding: 0 20px;
+    }
+
+    #marker { 
+        position: absolute;
+        top: 0;
+        height: 50px;
+        margin-top: -5px;
+        background: #2196f3;
+        border-radius: 2px;
+        transition: 0.5s;
+    }
+
+    #marker2 { 
+        position: absolute;
+        top: 0;
+        height: 50px;
+        margin-top: -5px;
+        background: #2196f3;
+        border-radius: 2px;
+        transition: 0.5s;
+    }
+
+    #marker3 { 
+        position: absolute;
+        top: 0;
+        height: 50px;
+        margin-top: -5px;
+        background: #2196f3;
+        border-radius: 2px;
+        transition: 0.5s;
+    }
+
+
+
+
+</style>
+
+<script type="text/javascript">
+const marker = document.querySelector('#marker');
+const marker2 = document.querySelector('#marker2');
+const marker3 = document.querySelector('#marker3');
+
+const item = document.querySelectorAll('.ul_pricing_list li a');
+// console.log(item);
+
+function indicator(e) {
+let parent = e.parentElement.parentElement 
+console.log(parent.firstElementChild);
+switch(parent.firstElementChild.id){
+    case "marker":
+        console.log("case marker");
+        marker.style.top = e.offsetTop + 'px';
+        marker.style.width = e.offsetWidth + 'px';
+    break;
+    case "marker2":
+    console.log("case marker2");
+        marker2.style.top = e.offsetTop + 'px';
+        marker2.style.width = e.offsetWidth + 'px';
+    break;
+    case "marker3":
+        console.log("case marker3");
+        marker3.style.top = e.offsetTop + 'px';
+        marker3.style.width = e.offsetWidth + 'px';
+    break;
+}
+
+
+}
+
+function setRedColor(e){
+let parent = e.parentElement.parentElement 
+console.log(parent.firstElementChild);
+switch(parent.firstElementChild.id){
+    case "marker":
+            if (e.classList.contains("red")){
+            console.log("mouse over red");
+            marker.style.background = "red";
+        } else if (e.classList.contains("green")){
+
+            marker.style.background = "green";
+        }
+        
+        else {
+            marker.style.background = "#2196f3";
+        }
+
+        break;
+    case "marker2":
+            if (e.classList.contains("red")){
+            console.log("mouse over red");
+            marker2.style.background = "red";
+        } else if (e.classList.contains("green")){
+
+            marker2.style.background = "green";
+        }
+        
+        else {
+            marker2.style.background = "#2196f3";
+        }
+
+        break;
+
+        case "marker3":
+            if (e.classList.contains("red")){
+                console.log("mouse over red");
+                marker3.style.background = "red";
+            } else if (e.classList.contains("green")){
+
+                marker3.style.background = "green";
+            }
+            
+            else {
+                marker3.style.background = "#2196f3";
+            }
+
+        break;
+}
+
+}
+
+item.forEach(link => { 
+link.addEventListener('mousemove', (e) => {
+    indicator(e.target);
+    setRedColor(e.target);
+})
+})</script>
